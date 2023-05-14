@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "parcel": "^2.8.3",
-    "vite": "^4.0.4"
+    "vite": "^4.3.5"
   },
   "dependencies": {
     "cors": "^2.8.5",
