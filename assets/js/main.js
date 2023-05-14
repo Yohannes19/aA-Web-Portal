@@ -1,6 +1,6 @@
 const map = L.map('map');
 // Get the tile layer from OpenStreetMaps
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Specify the maximum zoom of the map
 maxZoom: 19,
@@ -9,6 +9,20 @@ maxZoom: 19,
 attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 })
 .addTo(map);
+
+// google Hybrid
+var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3']
+});
+
+// base Map
+var baseLayers = {
+"OpenStreetMap": osm,
+"googleHybrid": googleHybrid
+};
+
+L.control.layers(baseLayers).addTo(map);
 
 // Set the view of the map
 // with the latitude, longitude and the zoom value
