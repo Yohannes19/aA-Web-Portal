@@ -9,10 +9,85 @@
   left: 10px;
   z-index: 1000;
 }
+/* ------------------------Services---------------------- */
+#services{
+  padding: 30px 3px;
+  overflow: auto;
+}
 
+.services-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.services-list div{
+  background: #262626;
+  padding: 40px;
+  color: white;
+  font-size: medium;
+  font-weight: 300;
+  border-radius: 10px;
+  transform: 1s, transform 1s;
+}
+.services-list div i{
+  font-size: 50px;
+  margin-bottom: 30px; 
+}
+.services-list div:hover{
+  background: #0d6efd;
+  transform: translateY(-10px);
+}
 
+/* ------------------------Teams------------------------- */
+.containerbaba{
+  margin:20px 40px;
+}
 
+.headingbaba{
+  font-size: 60px;
+}
+ .headingbaba span {
+  font-style: italic;
+  font-size: 40px;
+ }
 
+.profilesbaba {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.profilebaba {
+  padding: 10px;
+  flex-basis: 260px;
+  margin: 20px;
+  box-shadow:  0 5px 7px rgb(0, 0, 0, .4);
+  border-radius: 5px;
+}
+.profilebaba h3{
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.profilebaba p{
+  width: max(90%, 80%);
+  margin: auto;
+  text-align: justify;
+}
+.teamimg{
+  margin: auto;
+  width: max(90%, 80%);
+}
+.teamimg img{
+  width:100%;
+  filter: grayscale(100%);
+}
+.teamimg img:hover{
+  filter: grayscale(0);
+}
 
 
 

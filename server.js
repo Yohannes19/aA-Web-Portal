@@ -3,7 +3,7 @@ const path = require('path');
 const cors=require('cors');
 const app= express();
 
-const pool=require('./database/db');
+//const pool=require('./database/db');
 
 //middle
  app.use(express.json())
@@ -39,7 +39,7 @@ app.get('/threedimension',function(req,res){
   });
   
 //routes
-app.use("/data",require("./routes/routes"))
+//app.use("/data",require("./routes/routes"))
 
 app.listen(9000,()=>{
     console.log("server started  on port 9000");
