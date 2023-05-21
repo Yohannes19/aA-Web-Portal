@@ -21,7 +21,7 @@
     "leaflet-multispectral": "^0.0.2",
     "mime": "^3.0.0",
     "ol": "^7.3.0",
-    "pg": "^8.10.0",
+    "pg": "^8.11.0",
     "plotty": "^0.4.9",
     "requirejs": "^2.3.6"
   }
