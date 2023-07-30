@@ -1,8 +1,7 @@
-# Web Portal Explainer
-
+# River-A Web Portal
 ## Introduction
 
-The Aa-River Web GIS portal is a comprehensive platform developed by the web portal team, enabling spatio-temporal analysis and visualization of the River Aa in the Münster region of Germany. The portal serves as a central hub for accessing and analyzing river-related data, providing an intuitive and user-friendly interface for exploration.
+The Aa-River Web GIS portal is a comprehensive platform , enabling spatio-temporal analysis and visualization of the River Aa in the Münster region of Germany. The portal serves as a central hub for accessing and analyzing river-related data, providing an intuitive and user-friendly interface for exploration.
 
 ## Functionalities
 
@@ -72,28 +71,6 @@ The success and impact of the Aa-River Web GIS portal can be measured through ke
 - Visualization Effectiveness: Gather user feedback to determine the effectiveness of visualizations in conveying information and facilitating spatio-temporal analysis.
 - Collaboration and Interoperability: Assess the platform's ability to collaborate with other teams and seamlessly share data, fostering collaborative research.
 - User Satisfaction: Conduct user surveys to gauge overall user satisfaction with the web portal's functionalities and performance.
-
-## Contributors and Credits
-
-The success of the Aa-River Web GIS portal is the result of the dedicated efforts of the following team members:
-
-- Yohannes Abrha Mulaw (542515)
-- Babatunde Aremu (542577)
-- Lukumon Olaitan Lateef (542512)
-- Muhammad Omar Khan (542512)
-- Yeshey Samdrup (542517)
-
-The whole project concluded as the result of a research collaboration between the students, faculty, and the IT department of WWU Munster University.
-
-We thank Prof1, Prof2, Prof3, and the WWU IT Department for their support and constructive feedback.
-
-## License
-
-The web portal is available under the WWU IT Server Domain/License. See the LICENSE file for details.
-
-## Contact
-
-If you have any questions, feel free to open the portal or contact the Web Portal Team.
 
 ## Acknowledgments
 
